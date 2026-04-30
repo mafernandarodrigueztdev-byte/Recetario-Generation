@@ -1,0 +1,80 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    background-color: rgb(193, 193, 193);
+}
+
+.title{
+    position: relative;
+    top: 0;
+    color: rgb(69, 50, 18);
+    text-align: center;
+}
+
+.subheading{
+    color: rgb(92, 65, 65);
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center; /** Centra las tarjetas horizontalmente */
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap; /** Permite que bajen si no caben en pantalla */
+    margin: 20px auto;
+}
+
+.container{
+    padding: 20px; /**Espacio interno*/
+}
+
+.card_text{
+    margin-bottom: 20px;
+}
+
+.card{
+    border: 2px solid rgb(92, 65, 65);
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    min-height: 100px;
+    background-color: #fff8ef;
+}
+
+.card_title{
+    text-align: center;
+    color: rgb(69, 50, 18);
+}
+
+.card_text{
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.preparation-list {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.image-container {
+    text-align: center;
+    margin: 25px 0;
+}
+
+img{
+    width: 400px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.footer{
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(69, 50, 18);
+    background-color: #cbbca9;
+    border-top: 2px solid rgb(92, 65, 65);
+    font-size: 20px;
+}
